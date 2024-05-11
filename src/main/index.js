@@ -8,9 +8,9 @@ import { checkForUpdates } from './appUpdater'
 import store from './store'
 import * as remoteMain from '@electron/remote/main'
 remoteMain.initialize()
-import debug from 'electron-debug';
+import debug from 'electron-debug'
 if (process.env.NODE_ENV === 'development') {
-  debug();
+  debug()
 }
 /* eslint-enable import/first */
 
